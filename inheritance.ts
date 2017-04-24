@@ -1,4 +1,4 @@
-/*
+
 class world {
     name: string;
     constructor(theName: string) { 
@@ -33,4 +33,4 @@ let h = new Human("jhonny the man");
 let a: Animal = new Animal("Tommy the Animal");
 
 h.move();
-a.move(34);*/
+a.move(34);
