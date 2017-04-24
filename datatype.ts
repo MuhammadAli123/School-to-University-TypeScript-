@@ -23,7 +23,7 @@
  
 // generic array type
   let data2 : Array<string> = ["jhon", "poll", "Kami"];
-   console.log(data2[2]);
+  console.log(data2[2]);
 
 // Enum  represents a group of similarities
    enum forest {horse =1, lion =2, elephant = 4};
@@ -41,12 +41,11 @@
    // Declare a tuple type
    let val : [string , number];
   // Initialize it
-    val = ["hello", 6]
+   val = ["hello", 6]
 
  // Initialize it incorrectly
    val = [5 , "hello"]
-
-    console.log(val);*/
+   console.log(val);
 
   // Any can be any datatype describe any time in code
 
