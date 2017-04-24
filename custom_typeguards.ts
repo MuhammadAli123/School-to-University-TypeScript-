@@ -1,4 +1,4 @@
-/*
+
 interface Age { age:number}
 interface Name extends Age{ firstName()}
 
@@ -11,7 +11,7 @@ var record : Age;
 if(isData(record)){
     record.firstName;// record is Name in the block
 }
-*/
+
 /*
 This allows you to work with not only typeof and instanceof checks, which need a type 
 that JavaScript understands, but now you can work with interfaces and do custom analysis.  
