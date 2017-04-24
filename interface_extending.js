@@ -1,4 +1,4 @@
-/*
+
 interface country{
     states : number;
 }
@@ -9,8 +9,8 @@ var people = <people>{};
 people.states = 50;
 people.name = "carry";
 
-*/
-/*
+
+
 interface country{
     states : number;
 }
@@ -24,5 +24,4 @@ interface people extends country, forest{
 var people = {} as people; ///Alternative syntax for casting
 people.states = 50;
 people.name = "carry";
-people.animals ="lion";*/ 
-//# sourceMappingURL=interface_extending.js.map
+people.animals ="lion";
