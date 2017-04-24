@@ -1,5 +1,5 @@
 //protected can access the current class and subclasses (and sometimes also same-package classes)
-/*
+
 class Human{
      private names: string[];
      constructor() {
@@ -23,4 +23,3 @@ class Records extends Human{
 
 var data = new Records();
 data.setData(0, "name");
-*/
