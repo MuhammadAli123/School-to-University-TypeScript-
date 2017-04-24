@@ -1,4 +1,4 @@
-/*
+
 class MyClass{
     static Counter: number = 0;
     Number: number = 0;
@@ -20,8 +20,8 @@ let count2 = new MyClass(); // 2
 //count2.StaticMethod(); //we cannot access static members directly from the object instances
 count2.PublicMethod();
 //MyClass.PublicMethod();
-*/
-/*
+
+
 interface Human {
   name: string;
 }
@@ -70,5 +70,4 @@ world2(obj3);// Ok, `name` matched by index signature
 //Case 3
 var Obj4 = {age: 11, name: "janny"};
 world1(Obj4);//Case 3 Stale Literal: extra properties allowed
-*/ 
-//# sourceMappingURL=static_properties.js.map
+ 
