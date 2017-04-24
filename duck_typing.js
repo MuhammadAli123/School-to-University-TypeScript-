@@ -4,10 +4,10 @@
 // Duck-typing feature gives type safety in TypeScript code.
 // According to duck-typing method, the both objects must have matching
 // same properties/variables types
-/*let duck = {id: 1, name: "name"};
+
+let duck = {id: 1, name: "name"};
 //duck = {id: 2, name: "donald", age : 5};
 let duck2 = {id: 2, name: "donald", age: 5};
 duck = duck2;
 console.log(duck);
-*/ 
-//# sourceMappingURL=duck_typing.js.map
+
