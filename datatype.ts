@@ -1,34 +1,35 @@
 
 
 // boolean is an True and False values use for different Statements
-    /*let True : boolean = true;
+    let True : boolean = true;
     console.log(True);
     let False : boolean = false; 
-    console.log(False);*/
+    console.log(False);
 
 // string  could be any type of string
 
-    /*let Name : string = "Jhon";
-    console.log(Name);*/
+    let Name : string = "Jhon";
+    console.log(Name);
 
 // Number to store number and also decimal values
 
-    /*let num : number = 26;
-    console.log(num);*/
+    let num : number = 26;
+    console.log(num);
 
 // Array is used store temporary data
 
-  /*let data : number[] = [1, 2, 3];
+  let data : number[] = [1, 2, 3];
   console.log(data[0]);
-  // generic array type
+ 
+// generic array type
   let data2 : Array<string> = ["jhon", "poll", "Kami"];
-   console.log(data2[2]);*/
+   console.log(data2[2]);
 
 // Enum  represents a group of similarities
-  /* enum forest {horse =1, lion =2, elephant = 4};
+   enum forest {horse =1, lion =2, elephant = 4};
    let a : forest = forest.lion;
    let AniName :string = forest[4];
-   console.log(AniName);*/
+   console.log(AniName);
 
 // Tuple   
   /*
@@ -38,21 +39,21 @@
   */
 
    // Declare a tuple type
- /*  let val : [string , number];
+   let val : [string , number];
   // Initialize it
     val = ["hello", 6]
 
  // Initialize it incorrectly
-   //val = [5 , "hello"]
+   val = [5 , "hello"]
 
     console.log(val);*/
 
-    // Any can be any datatype describe any time in code
-/*
+  // Any can be any datatype describe any time in code
+
    let anyThing : any = "name";
    console.log(anyThing);
    anyThing = 5;
-    console.log(anyThing);
+   console.log(anyThing);
    anyThing = true;
-    console.log(anyThing);
- */
+   console.log(anyThing);
+ 
