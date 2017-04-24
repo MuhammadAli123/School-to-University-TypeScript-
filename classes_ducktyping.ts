@@ -1,4 +1,3 @@
-/*
 class Human{
     name: string;
     
@@ -25,10 +24,10 @@ let a1 : Animal= new Animal("cat", 3);
 
 h1 = new Animal("Dog", 4);//this is working, but it should not because it is a fresh 
 //object with extra properties
-a1 = new Human("women",7);*/
+a1 = new Human("women",7);
 // This is not allowed need to add all properties including functions
 //let a2 : Animal = {name:"cat", age:4};
-/*
+
 let a2: Animal = {name:"Dog",age:4, eat: function() {
     console.log("Eat in object literal");
 }}; 
@@ -38,4 +37,3 @@ let a2: Animal = {name:"Dog",age:4, eat: function() {
 //error but you can not call this function without paramter, see the call below
 
 a2.eat(5);
-*/
