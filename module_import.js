@@ -9,12 +9,10 @@ functions, classes, etc. declared in a module are not visible outside the module
 explicitly exported using one of the export forms. Conversely, to consume a variable, function, class,
 interface, etc. exported from a different module, it has to be imported using one of the import forms.
 */
-/*
+
 import {add, multiple} from "./module_export"
 
 var addResult = add(3, 6);
 var multipleResult = multiple(5 ,6);
 console.log(addResult);
 console.log(multipleResult);
-*/ 
-//# sourceMappingURL=module_import.js.map
