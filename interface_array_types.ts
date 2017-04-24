@@ -1,7 +1,7 @@
 /* We can use interfaces to describe an array also, but remember this is different from Java 
 or C# where we can only use interfaces to describe class types*/
 
-example1
+//example1
 interface Human{
     [age: number]: string; //Note: it has no name assigned to the function signature
     length:number; 
