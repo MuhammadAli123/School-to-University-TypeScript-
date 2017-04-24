@@ -1,5 +1,5 @@
 // In TypeScript, each member is public by default.
-/*
+
 class Human{
     private name:string;
     constructor(FullName: string) {
@@ -11,5 +11,4 @@ class Human{
 }
 // private members can only be access to their respective class
 var record = new Human("micheal").name;
-console.log(record);*/ 
-//# sourceMappingURL=class_private_modifiers.js.map
+console.log(record);
