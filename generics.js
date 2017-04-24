@@ -4,7 +4,7 @@ components is 'generics', that is,being able to create a component that can work
 variety of types rather than a single one. This allows users to consume these components
 and use their own types.
 */
-/*
+
 class Human<Tname, Tage>{
     private name: Tname[];
     private age:  Tage[];
@@ -23,5 +23,4 @@ let recordName = new Human<string, number>();
 let recordAge = new Human<number,string>();
 recordName.Data("Romi", 20);
 recordAge.Data(25, "Root");
-*/ 
-//# sourceMappingURL=generics.js.map
+
