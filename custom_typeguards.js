@@ -1,4 +1,4 @@
-/*
+
 interface Age { age:number}
 interface Name extends Age{ firstName()}
 
@@ -17,5 +17,4 @@ This allows you to work with not only typeof and instanceof checks, which need a
 that JavaScript understands, but now you can work with interfaces and do custom analysis.
 Guard functions are denoted by their “Info is record” return type,which returns boolean
 and signals to the compiler if what the expected type now is
-*/ 
-//# sourceMappingURL=custom_typeguards.js.map
+
