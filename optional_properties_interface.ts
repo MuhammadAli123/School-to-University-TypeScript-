@@ -1,4 +1,4 @@
-/*
+
 interface Human{
     name?: string;
     age?: number;
@@ -15,4 +15,3 @@ var recordName = world({name: "Amor"});
 var recordAge = world({age: 7});
 
 console.log("name: "+recordName, "age: "+recordAge);
-*/
