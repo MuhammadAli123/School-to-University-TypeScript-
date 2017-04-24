@@ -1,5 +1,5 @@
 // syntax of classes in TypeScript is similar to java and c#
-/*
+
 class Human{
     name: string;
     
@@ -42,5 +42,4 @@ let r2: Robot = new Animal("lion");
 var isItRobot = r2 instanceof Animal;
 console.log("Is Lion a Robot: " + isItRobot);
 
-*/ 
-//# sourceMappingURL=classes.js.map
+
