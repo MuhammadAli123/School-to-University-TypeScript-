@@ -3,7 +3,7 @@ As in JavaScript, every parameter is optional, and users may leave them and thei
 undefined. We can get this functionality in TypeScript by adding a ? to the end of parameters
 */
 
-/*function Info(firstName:string, lastName?:string):string{
+function Info(firstName:string, lastName?:string):string{
     if(lastName){
       return firstName+" "+lastName;
     }
@@ -18,7 +18,7 @@ var result2 = Info("Adam","suns");
 console.log(result2);*/
 
 // Anonymous function with optional parameters
-/*
+
 var Info : (firstName:string, lastName?:string) => string =
 function(firstName:string, lastName?:string):string{
     if(lastName){
@@ -29,4 +29,3 @@ function(firstName:string, lastName?:string):string{
     }
 
 }
-*/
