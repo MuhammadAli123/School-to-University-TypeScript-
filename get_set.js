@@ -3,7 +3,7 @@ object, thus allowing Encapsulation .This gives you a way of having finer-graine
 over how a member is accessed on each object.*/
 /* Encapsulation is the packing of data and functions into a single component. */
 // Note: getters and setters are only supported when targeting ES 5 or higher.
-/*
+
 var Identity = "personal identity";
 
 class Human{
@@ -26,5 +26,4 @@ h.fullName = "Smith";
 if (h.fullName) {
     console.log(h.fullName);
 }
-*/ 
-//# sourceMappingURL=get_set.js.map
+ 
