@@ -1,4 +1,4 @@
-/*
+
 // i would suggest you to use let instead of var everywhere, because it gives BlockScope concept
 let num = 7;
  if (true){
@@ -23,4 +23,4 @@ let num = 7;
  const names : string = "name";
  const bool : boolean = true;
 
- */
+ 
