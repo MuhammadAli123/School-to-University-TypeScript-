@@ -44,4 +44,4 @@ console.log(data2[2]);
    anyThing = true;
    console.log(anyThing);
  
-//# sourceMappingURL=datatype.js.map
+
