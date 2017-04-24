@@ -2,7 +2,7 @@
 In Generic Constraints you may sometimes want to write a generic that works only on a set of
 types where you have some knowledge about the capabilities
 */
-/*
+
 class Human{
     name: string;
 }
@@ -32,5 +32,4 @@ record.display();
 
 let record2 = new Data<showData>();
 record2.add(record);
-*/ 
-//# sourceMappingURL=generics_constraints.js.map
+
