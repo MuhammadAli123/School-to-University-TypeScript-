@@ -1,4 +1,4 @@
-// By the name callback we can simple ub=nderstand that a thing to be call at later
+// By the name callback we can simple understand that a thing to be call at later
 // or at any point in the program
 
 function myCallback(callbackName: string){
